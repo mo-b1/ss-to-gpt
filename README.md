@@ -30,4 +30,3 @@ If the item is hidden, enable **Send to ChatGPT** in **System Settings → Keybo
 For the existing-chat option, open the desired conversation in ChatGPT first. The native ChatGPT app does not expose a public API for selecting a conversation by ID.
 
 Screenshots are not uploaded by this helper. It passes the image through the macOS clipboard to ChatGPT.
-# ss-to-gpt

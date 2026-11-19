@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleDevelopmentRegion</key><string>en</string>
+    <key>CFBundleDisplayName</key><string>Screenshot to ChatGPT</string>
+    <key>CFBundleExecutable</key><string>ScreenshotToChatGPT</string>
+    <key>CFBundleIdentifier</key><string>dev.ss-to-gpt.ScreenshotToChatGPT</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleName</key><string>Screenshot to ChatGPT</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundleShortVersionString</key><string>1.1.0</string>
+    <key>CFBundleVersion</key><string>3</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict><key>default</key><string>Send to ChatGPT</string></dict>
+            <key>NSMessage</key><string>sendToChatGPT</string>
+            <key>NSPortName</key><string>ScreenshotToChatGPT</string>
+            <key>NSSendTypes</key>
+            <array>
+                <string>public.image</string>
+                <string>public.file-url</string>
+                <string>public.utf8-plain-text</string>
+            </array>
+        </dict>
+    </array>
+    <key>NSScreenCaptureUsageDescription</key><string>Select a screen area to send to the ChatGPT app.</string>
+</dict></plist>
